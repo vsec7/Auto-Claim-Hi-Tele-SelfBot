@@ -6,8 +6,8 @@ from telethon import TelegramClient, sync
 
 # Configurations
 # Get api_id & api_hash from https://my.telegram.org/
-api_id = 3133337
-api_hash = 'qwertyuiop12345678900'
+api_id = 14483301
+api_hash = 'b2c60a18d2d213a9056a3658ea684bf9'
 
 client = TelegramClient('session', api_id, api_hash).start()
 to = client.get_entity("hiofficialbot")
